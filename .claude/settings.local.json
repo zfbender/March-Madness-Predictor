@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Read(//usr/local/**)",
+      "Read(//Users/zachbender/.nvm/**)",
+      "Read(//Users/zachbender/.volta/**)",
+      "Bash(command -v node npm bun)",
+      "Bash(echo \"PATH: $PATH\")",
+      "Bash(python3 -m pip install anthropic)",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams?limit=5\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); t=d[''''sports''''][0][''''leagues''''][0][''''teams''''][0][''''team'''']; print\\(list\\(t.keys\\(\\)\\)\\)\")",
+      "Bash(curl -s \"https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams?limit=3\")",
+      "Bash(python3 -c \":*)",
+      "Bash(curl -s \"https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/52/statistics\")",
+      "Bash(python3 -c ':*)",
+      "Bash(curl -s \"https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams?limit=500\")",
+      "Bash(curl -s \"https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/52\")",
+      "Bash(ls /Users/zachbender/Coding/AI Projects/March Madness Predictor/*.jsx /Users/zachbender/Coding/AI Projects/March Madness Predictor/*.js)"
+    ]
+  }
+}
